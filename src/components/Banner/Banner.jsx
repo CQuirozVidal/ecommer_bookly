@@ -21,9 +21,11 @@ const Banner = () => {
                     className="text-3xl sm:text-4xl font-bold"
                     >Winter Sale upto 50% Off
                     </h1>
-                    <p className="text-sm text-gray-500 tracking-wide leading-5">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Necessitatibus ex porro dicta minima tempora itaque?
+                    <p 
+                        data-aos="fade-up" 
+                        className="text-sm text-gray-500 tracking-wide leading-5">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Necessitatibus ex porro dicta minima tempora itaque?
                     </p>
                     <div className="flex flex-col gap-4">
                         <div data-aos = "fade-up" className="flex items-center gap-4"
