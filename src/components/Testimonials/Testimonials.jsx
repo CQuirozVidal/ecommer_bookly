@@ -6,28 +6,27 @@ const testimonialData = [
   {
     id: 1,
     name: "Victor",
-    text: `Lorem ipsum, dolor sit amet 
-    consectetur adipisicing elit. Quam, itaque.`,
+    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Repellendus recusandae qui, repellat nihil blanditiis facere.`,
     img: "http://picsum.photos/101/101",
   },
   {
     id: 2,
     name: "Satya Nadella",
-    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-    Repellendus beatae in alias? Dignissimos, atque corrupti! 
-    Quam iusto reiciendis corrupti eum?`,
+    text: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Ipsa a in dolores eius earum totam.,`,
     img: "http://picsum.photos/102/102",
   },
   {id: 3,
     name: "Virat",
-    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-    Repellendus beatae in?`,
+    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Non quibusdam asperiores rem quo consectetur ab.`,
     img: "http://picsum.photos/104/104",
   },
-  {id: 5,
+  {id: 4,
     name: "Sachin",
-    text: `Lorem ipellendupsum, eatae indolor sit amet consectetur ing elit. 
-    Res badipisic`,
+    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptatibus maxime corporis inventore voluptas neque quod!c`,
     img: "http://picsum.photos/103/103",
   },
 ]
@@ -36,14 +35,14 @@ const Testimonials = () => {
 
   var settings = {
     dots: true,
-    arros: false, 
+    arrows: false, 
     infinite: true,
     speed: 500, 
-    // slidesToShow: 2,
+    //slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 2000,
-    cssEase: "Linear",
+    cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,
       responsive: [{
@@ -59,7 +58,7 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1, 
-          initialSlide: 2,
+          //initialSlide: 2,
         },
       },
       {
@@ -90,12 +89,40 @@ const Testimonials = () => {
         </div>
 
         {/* Testimonial cards */}
-        <div>
+        <div
+          data-aos="zoom-in"
+        >
         <Slider {...settings}>
           {
             testimonialData.map((data) => (
-              <div>
-
+              <div 
+                className="my-6"
+                >
+                <div
+                  key={data.id}
+                  className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl 
+                  dark:bg-gray-800 bg-primary/10 relative"
+                >
+                  <div className="mb-4">
+                    <img src={data.img} alt={data.name}
+                      className="rounded-full w-20 h-20 " 
+                    />
+                  </div>
+                  <div className="flex flex-col items-center gap-4">
+                    <div className="space-y-3">
+                      <p
+                      className="text-xs text-gray-400"
+                    >{data.text}</p>
+                    <h1
+                      className="text-xl font-bold text-black/80 dark:text-light"
+                    >{data.name}</h1>
+                    </div>
+                  </div>
+                  <p
+                    className="text-black/20 text-9xl font-serif absolute top-0 right-0"
+                  > ,,
+                  </p>
+                </div>
               </div>
             ))
           }
