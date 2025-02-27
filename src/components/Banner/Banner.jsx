@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImg from "../../assets/women/women2.jpg";
+import BannerImg from "../../assets/books/banner.jpg"
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
@@ -19,7 +19,7 @@ const Banner = () => {
                 <div className="flex flex-col justify-center gap-6 sm:pt-0">
                     <h1
                     className="text-3xl sm:text-4xl font-bold"
-                    >Winter Sale upto 50% Off
+                    >Try our online shopping system
                     </h1>
                     <p 
                         data-aos="fade-up" 

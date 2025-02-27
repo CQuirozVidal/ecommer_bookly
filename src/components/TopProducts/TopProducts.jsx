@@ -1,14 +1,14 @@
 import React from 'react'
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img1 from "../../assets/bookthings/bookmark.png";
+import Img2 from "../../assets/bookthings/pageholder.png";
+import Img3 from "../../assets/bookthings/booksleeve.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
     {
         id: 1,
         img: Img1,
-        title: "Casual Wear",
+        title: "Bookmarks",
         description: 
         `Lorem ipsum dolor, sit amet consectetur 
         adipisicing elit. Dolorem, quisquam!`,
@@ -16,7 +16,7 @@ const ProductsData = [
     {
         id: 2,
         img: Img2,
-        title: "Printed shirt",
+        title: "Page Holder",
         description: 
         `Lorem oloremipsum uisquamdolor, sit amet consectetur 
         adipisicing elit. D, q!`,
@@ -24,7 +24,7 @@ const ProductsData = [
     {
         id: 3,
         img: Img3,
-        title: "Women shirt",
+        title: "Book sleeve",
         description: 
         `Lorem elit. Dolorem,ipsum dolor, sit pisiciamet consectetur 
         ading  quisquam!`,
@@ -38,9 +38,9 @@ const TopProducts = ({ handleOrderPopup }) => {
             {/* Header section */}
             <div className="text-left mb-24">
                 <p data-aos="fade-up" className="text-sm text-primary">
-                    Top Rated Product for you
+                    Best products to pair with your book
                 </p>
-                <h1 data-aos="fade-up" className="text-3xl font-bold"> Best Products</h1>
+                <h1 data-aos="fade-up" className="text-3xl font-bold">Reading Essentials</h1>
                 <p data-aos="fade-up" className=" text-xs text-gray-400">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Accusantium, adipisci.

@@ -18,17 +18,17 @@ const Menu = [
     },
     {
         id: 3, 
-        name: "Kids Wear",
+        name: "Novels & Fantasy",
         link: "/#",
     },
     {
         id: 4,
-        name: "Mens Wear", 
+        name: "Terror & Horror", 
         link: "/#",
     },
     {
         id: 5, 
-        name: "Electronics",
+        name: "Outlet",
         link: "/#"    
     }
 ];
@@ -36,7 +36,7 @@ const Menu = [
 const DropdownLinks = [
     {
         id: 1,
-        name: "Trending Products",
+        name: "Trending Books",
         link: "/#",
     },
     {
@@ -46,7 +46,7 @@ const DropdownLinks = [
     },
     {
         id: 3,
-        name: "Top Rated",
+        name: "Top Authors",
         link: "/#",
     },
 ];
@@ -62,7 +62,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div>
                 <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2"> 
                     <img src={Logo} alt="Logo"  className="w-10 uppercase"/>
-                    Shopsy
+                    Bookly
                 </a>
             </div>
             {/* search bar */}

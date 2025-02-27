@@ -52,7 +52,7 @@ const Footer = () => {
                     >
                         <img src={footerLogo} alt="" 
                         className="max-w-[50px]"/>
-                        Shopsy</h1>
+                        Bookly</h1>
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Iste laborum quo voluptatibus 
                         repellat ea fugiat!
@@ -100,7 +100,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    {/* social links */}
+                    {/* Social links */}
                     <div>
                         <div className="flex items-center gap-3 mt-6">
                             <a href="#">
@@ -116,7 +116,7 @@ const Footer = () => {
                         <div className="mt-6">
                             <div className="flex items-center gap-3">
                                 <FaLocationArrow />
-                                <p>Noida, Uttar Pradesh</p>
+                                <p>Karl Lex</p>
                             </div>
                             <div className="flex items-center gap-3 mt-3">
                                 <FaMobileAlt />

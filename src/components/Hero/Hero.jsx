@@ -1,14 +1,14 @@
 import React from 'react'
-import Image1 from "../../assets/hero/women.png"
-import Image2 from "../../assets/hero/shopping.png"
-import Image3 from "../../assets/hero/sale.png"
+import Image1 from "../../assets/hero/fantasy.png"
+import Image2 from "../../assets/hero/terror.png"
+import Image3 from "../../assets/hero/outlet.png"
 import Slider from "react-slick"
 
 const ImageList = [
     {
         id: 1,
         img: Image1, 
-        title: "Upto 50% off on all Men's Wear",
+        title: "It's fantasy month!!!, 50% Off on 🐉",
         description: 
         `Lorem ipsum, dolor sit amet consectetur adipisicing elit, 
         Dolor, similique velit! Eligendi quasi adipisci natus 
@@ -17,15 +17,15 @@ const ImageList = [
     {
         id: 2,
         img: Image2, 
-        title: "Upto 30% off on all Women's Wear",
+        title: "15% off on your favorite Terror Authors 😱",
         description: 
         `Lorem ipsum, Eligendi quasi adipisci natus 
-        voluptates non `
+        voluptates non similique velit!`
     },
     {
         id: 3,
         img: Image3, 
-        title: "70% off on all Product Sale",
+        title: "Outled it's here, come to see 👀",
         description: 
         `Lorem ipsum,  non facere iusto hic exercitationem cum, dolor, 
         expedita deserunt dignissimos aliquam sint maiores distinctio?`
@@ -103,8 +103,8 @@ const Hero = ({ handleOrderPopup }) => {
                         >
                             <div className="relative z-10"> 
                                 <img src={data.img} alt="" 
-                                className="w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] 
-                                sm:scale-125 lg:scale-120 object-contain mx-auto" 
+                                className="w-full h-full sm:h-[450px] max-w-[450px] max-h-[450px] 
+                                object-cover mx-auto" 
                                 />
                             </div>
                         </div>
