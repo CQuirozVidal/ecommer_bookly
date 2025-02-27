@@ -1,7 +1,3 @@
-Aquí tienes el `README.md` traducido al inglés, con la información adicional que mencionaste y una pequeña aclaración sobre los plugins:
-
----
-
 # Bookly - Book and Accessories Store
 
 **Bookly** is an online store for purchasing books and accessories, built with **React**, **Vite**, and **Tailwind CSS**. This project is based on a tutorial from [The Coding Journey](https://www.youtube.com/watch?v=EkRuAOsmXm0&t=4219s&ab_channel=TheCodingJourney), where a clothing store is created, but in this case, it's adapted to sell books and accessories.
